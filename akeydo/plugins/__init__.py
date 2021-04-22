@@ -6,16 +6,12 @@ else:
     from importlib.metadata import entry_points
 
 from . import (
-    cpu,
     devices,
-    memory,
 )
 
 __all__ = (
-    "cpu",
     "devices",
     "installed_plugins",
-    "memory",
 )
 
 
